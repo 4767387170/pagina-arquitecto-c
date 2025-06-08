@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arq. Christopher Loza Cabrera - Servicios de Arquitectura</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #004aad;
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+            background-image: url('https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        header h1 {
+            margin: 0;
+            font-weight: 700;
+            font-size: 2.5rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            display: inline-block;
+        }
+        nav {
+            background: #023e7d;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #90caf9;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #004aad;
+            border-bottom: 3px solid #004aad;
+            padding-bottom: 6px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: inside disc;
+        }
+        footer {
+            background: #023e7d;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 0.9rem;
+        }
+        .contact-info span {
+            display: block;
+            margin: 5px 0;
+        }
+        .redes-sociales a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+        .galeria img {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arq. Christopher Loza Cabrera</h1>
+    </header>
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Impermeabilización</li>
+                <li>Pintura</li>
+                <li>Remodelaciones</li>
+                <li>Construcciones</li>
+                <li>Acabados</li>
+                <li>Vidrio y aluminio</li>
+                <li>Casa habitación</li>
+            </ul>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+            <p>Con más de 15 años de experiencia en proyectos arquitectónicos en Guanajuato, tanto públicos como privados:</p>
+            <ul>
+                <li>Infraestructura educativa</li>
+                <li>Mantenimiento de instalaciones</li>
+                <li>Impermeabilizaciones y adecuaciones arquitectónicas</li>
+                <li>Proyectos para universidades, mercados y espacios públicos</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Proyectos</h2>
+            <div class="galeria">
+                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80" alt="Proyecto 1">
+                <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80" alt="Proyecto 2">
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Estoy disponible para asesoría y contratación.</p>
+            <div class="contact-info">
+                <span><strong>Teléfono:</strong> 476 738 7170</span>
+                <span><strong>Email:</strong> <a href="mailto:arq.christo@yahoo.com.mx">arq.christo@yahoo.com.mx</a></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Arq. Christopher Loza Cabrera</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="https://wa.me/524767387170" target="_blank">WhatsApp</a>
+        </div>
+    </footer>
+</body>
+</html>
